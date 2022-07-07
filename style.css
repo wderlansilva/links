@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Css variables */
+
+:root {
+  --back-color: #ebe3e3;
+  --primary-color: #201e1e;
+  --primary-hover: #6b6464;
+}
+
+body.dark {
+  --back-color: #232121;
+  --primary-color: #adaaaa;
+}
+
+body.dark-blue {
+  --back-color: #050233;
+  --primary-color: #acb5e3;
+}
+
+body {
+  background-color: var(--back-color);
+  color: var(--primary-color);
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+
+  padding: 0.2rem;
+  margin: 4rem 0 1.5rem 0;
+  
+  border: 0.1rem solid var(--primary-color);
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.linkInstagram {
+  margin-bottom: 1.8rem;
+}
+
+.list{
+  width: 100%;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 100%;
+  height: 3rem;
+  
+  margin-bottom: 0.8rem;
+  border-radius: 0.2rem;
+  
+  background-color: var(--primary-color);
+  cursor: pointer;
+
+  transition: background 300ms;
+
+  color: var(--back-color);
+}
+
+.card a {
+  color: var(--back-color);
+  display: contents;
+  align-items: center;
+}
+
+.card:hover {
+  background-color: var(--primary-hover);
+}
+
+.uil {
+  color: var(--back-color);
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.footer {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.icon-dark-mode {
+  position: absolute;
+  top: 0.3rem;
+  right: 0rem;
+  color: var(--primary-color);
+  max-width: 400px;
+}
+
