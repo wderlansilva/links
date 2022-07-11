@@ -8,7 +8,6 @@
 }
 
 /* Css variables */
-
 :root {
   --back-color: #ebe3e3;
   --primary-color: #201e1e;
@@ -18,11 +17,13 @@
 body.dark {
   --back-color: #232121;
   --primary-color: #adaaaa;
-}
+} 
 
 body.dark-blue {
+
   --back-color: #050233;
   --primary-color: #acb5e3;
+
 }
 
 body {
